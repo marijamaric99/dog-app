@@ -1,4 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Description:
+The project utilizes the Dogs API to display various dog breeds and their images. Implemented as a web application, it allows users to browse all available dog breeds and view detailed images for a selected breed.
+
+## Homepage Functionalities:
+On the homepage, cards with names of different dog breeds are displayed. Each card contains a link that leads to a page with images for the chosen breed.
+
+## Breed Page:
+The page for an individual dog breed showcases a title with the breed's name and a gallery of images for that breed.
+
+## Header Component:
+A separate component (Header) is used for the header, containing the Dogs API logo and a title. This header is visible on every page, providing consistent navigation.
+
+## Links and Transitions:
+Page navigation is facilitated using the Link component from Next.js, providing users with a quick and seamless browsing experience.
+
+## Error Page:
+The Error page is designed to inform users when an error occurs during the fetching of API data. 
+
+## NotFound Page:
+The NotFound page is displayed when a user attempts to access a page or breed data that does not exist.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/your-username/dogs-api-project.git`
+2. Inside the project directory, install dependencies: `npm install`
+
+## Running
+
+1. Start the project: `npm start`
+2. Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Used Technologies
+
+- Next.js
+- React
+- Tailwind CSS
 
 ## Getting Started
 
