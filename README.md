@@ -4,8 +4,14 @@ The project utilizes the Dogs API to display various dog breeds and their images
 ## Homepage Functionalities:
 On the homepage, cards with names of different dog breeds are displayed. Each card contains a link that leads to a page with images for the chosen breed.
 
+![slika 1](https://github.com/marijamaric99/dog-app/assets/67763924/339a9176-93f7-48cc-b19c-ef25a052eaaf)
+
+
 ## Breed Page:
 The page for an individual dog breed showcases a title with the breed's name and a gallery of images for that breed.
+
+![slika 2](https://github.com/marijamaric99/dog-app/assets/67763924/0cad4cd0-1cdb-41e5-92d2-e072cf3349df)
+
 
 ## Header Component:
 A separate component (Header) is used for the header, containing the Dogs API logo and a title. This header is visible on every page, providing consistent navigation.
