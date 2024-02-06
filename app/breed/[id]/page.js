@@ -1,14 +1,9 @@
 import Image from "next/image";
 import getBreedImages from "@/app/lib/getBreedImages";
 
-let breedImages = [];
 
 export default async function BreedPage({ params: { id } }) {
-  const breedImage = await getBreedImages(id);
-
-  if (Array && Array.isArray(breedImage)) {
-    breedImages = breedImage;
-  }
+  const breedImages = await getBreedImages(id);
 
   const capFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);

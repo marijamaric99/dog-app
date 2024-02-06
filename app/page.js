@@ -4,7 +4,6 @@ import getDogs from './lib/getDogs';
 export default async function HomePage() {
   const breeds = await getDogs();
   
-
   const capFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
   };
